@@ -305,27 +305,27 @@ margin: 10px;
     }
 }
 
-/* Qualidade */
+/* Ferramentas */
 
-.qualidade{
+.tools{
     max-width: 960px;
     margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-.qualidade-item{
+.tools-item{
     flex: 1 1 300px;
     margin: 20px 10px;
 }
 
-.qualidade-item h2{
+.tools-item h2{
     font-size: 2.25em;
     color: #a4a4a4;
     margin-bottom: 20px;
 }
 
-.qualidade-item h2:before{
+.tools-item h2:before{
     content: "";
     display: inline-block;
     width: 8px;
@@ -334,19 +334,19 @@ margin: 10px;
     background-color: #122ab2;
 }
 
-.qualidade-item:nth-of-type(3n+1) h2::before{
+.tools-item:nth-of-type(3n+1) h2::before{
     background-color: #af81ff;
 }
 
-.qualidade-item:nth-of-type(3n+2) h2::before{
+.tools-item:nth-of-type(3n+2) h2::before{
     background-color: #f9265e;
 }
 
-.qualidade-item:nth-of-type(3n+3) h2::before{
+.tools-item:nth-of-type(3n+3) h2::before{
     background-color: #66d9eb;
 }
 
-.qualidade-item p{
+.tools-item p{
     font-size: 1.25em;
     line-height: 1.4;
     color: #7c7c7c;
