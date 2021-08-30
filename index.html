@@ -21,30 +21,30 @@
     <header class="menu-bg">
         <div class="menu">
             <div class="menu-logo">
-                <a href="#">FlexWeb</a>
+                <a href="#">Edson Barroso</a>
             </div>
             <nav class="menu-nav">
                 <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#preco">Preço</a></li>
-                    <li><a href="#qualidade">Qualidade</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#pictures">Pictures</a></li>
+                    <li><a href="#preco">Experiences</a></li>
+                    <li><a href="#qualidade">Qualidades</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <h1 class="introducao">Utilizando flexbox no CSS</h1>
+    <h1 class="introducao">Currículo</h1>
 
     <section class="sobre id="sobre">
         <div class="sobre-info1">
             <h1>About</h1>
-                <p><span>Name:</span> Edson Barroso<p>
+                <p><span>Name:</span> Edson Barroso de Moraes Junior<p>
                 <p><span>Age:</span> 26y</p>
                 <p><span>Course:</span> Analysis and Systems Development. 3/5</p>
                 <p><span>Things that I like:</span> Lie in my bed after a long day</p>
                 <p><span>Internship:</span> Infra Structure but looking for a real development job.</p>
-                <p><span>My biggest challenge today:</span> Reconcile the internship; college; personal studies trail; take care of my daughter and pay attention to my wife who is very demanding in this regard (I won't even include physical exercises because I've failed so much in keeping this routine that I can't even take it seriously).</p>
+                <p><span>My biggest challenge today:</span> Reconcile the internship; college; personal studies trail; take care of my daughter and pay attention to my wife who is very demanding in this point (I won't even include physical exercises because I've failed so much in keeping this routine that I can't even take it seriously).</p>
         </div>
         <div>
             <img src="img/dhai_______-20210828-0001.jpg" alt="Sobre 1">
@@ -55,9 +55,10 @@
     </section>
 
     <section class="pictures" id="pictures">
-        <h1>Pictures</h1>
-        <p>In this section the idea was to keep the photos side by side without breaking the layout of the device accessed. An 'align-items: flex-end' was used so that it preserves the alignment at the end of the elements and in the beginning it is free to break.
-        </p>
+        <h1>Family</h1>
+
+        <!--In this section the idea was to keep the photos side by side without breaking the layout of the device accessed. An 'align-items: flex-end' was used so that it preserves the alignment at the end of the elements and in the beginning it is free to break.-->
+        
         <div class="pictures-container">
             <div class="pictures-item purple">
                 <h2>Waiting for lunch. We're starving in this day.</h2>
@@ -75,83 +76,75 @@
             </div>
         </div>
     </section>
-    <h2 class="text-preco">In this section there is an interesting concept of layout breaking. On devices with a small screen, the elements in this section are adjusted to not break. However, in a marketing concept, the first element presented will be the "cheaper" and the tendency is for the user to choose it. To fix this, a 'media query' was done with 'max width' of a small device and then changed the order of the elements so that the most expensive comes first.</h2>
-    <section class="preco" id="preco">
+    
+    <div class="tittle-exp"><h1>Professional Experience
+    </h1></div>
+   
+    <section class="exp" id="exp">
+         <!--In this section there is an interesting concept of layout breaking. On devices with a small screen, the elements in this section are adjusted to not break. However, in a marketing concept, the first element presented will be the "cheaper" and the tendency is for the user to choose it. To fix this, a 'media query' was done with 'max width' of a small device and then changed the order of the elements so that the most expensive comes first.-->
         
-        <div class="preco-item">
-            <h2>Bronze</h2>
-            <span><sup>$</sup>19</span>
+        <div class="exp-item">
+            <h2>Helpdesk</h2>
+            <span>Internship</span>
         <ul>
-            <li>Unlimited Plans</li>
-            <li>Restricted Access</li>
-            <li>Secret Content</li>
-            <li>Support 24h</li>
+            <li>Ativa Contábil</li>
+            <li>2020~Present</li>
+            <li>Domínio Web system support</li>
+            <li>Helpdesk</li>
         </ul>
-        <a href="#">Buy</a>
+      
         </div>
 
-        <div class="preco-item">
-            <h2>Silver</h2>
-            <span><sup>$</sup>39</span>
+        <div class="exp-item">
+            <h2>Administrative Assistant</h2>
+            <span>Internship</span>
         <ul>
-            <li>Unlimited Plans</li>
-            <li>Restricted Access</li>
-            <li>Secret Content</li>
-            <li>Support 24h</li>
-            <li>Exclusive Purchase</li>
+            <li>Consult Center do Brasil</li>
+            <li>2018~2020</li>
+            <li>Customer support in the Serasa Experian system</li>
         </ul>
-        <a href="#">Buy</a>
+     
         </div>
 
-        <div class="preco-item">
-            <h2>Gold</h2>
-            <span><sup>$</sup>79</span>
+        <div class="exp-item">
+            <h2>IT Support</h2>
+            <span>Internship</span>
         <ul>
-            <li>Unlimited Plans</li>
-            <li>Restricted Access</li>
-            <li>Secret Content</li>
-            <li>Support 24h</li>
-            <li>Exclusive Purchase</li>
-            <li>Download the Items</li>
+            <li>Mectronic</li>
+            <li>2015~2017</li>
+            <li>Totvs Protheus 11 system support</li>
+            <li>Helpdesk</li>
 
         </ul>
-        <a href="#">Buy</a>
+       
         </div>
     </section>
 
     <section class="qualidade" id="qualidade">
         <div class="qualidade-item">
-            <h2>Inteligente</h2>
+            <h2>HTML</h2>
+            <ul>
+                <li>Estrutura</li>
+                <li>Tag</li>
+                <li>Formulário</li>
+            </ul>
+
+        <div class="qualidade-item">
+            <h2>CSS</h2>
             <p>O que temos que ter sempre em mente 
             é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
         </div>
 
         <div class="qualidade-item">
-            <h2>Compacto</h2>
+            <h2>Javascript</h2>
             <p>O que temos que ter sempre em mente 
             é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
         </div>
 
-        <div class="qualidade-item">
-            <h2>Economico</h2>
-            <p>O que temos que ter sempre em mente 
-            é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
-        </div>
+       
 
         <div class="qualidade-item">
-            <h2>Transparente</h2>
-            <p>O que temos que ter sempre em mente 
-            é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
-        </div>
-
-        <div class="qualidade-item">
-            <h2>Opaco</h2>
-            <p>O que temos que ter sempre em mente 
-            é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
-        </div>
-
-        <div class="qualidade-item">
-            <h2>Sustentável</h2>
+            <h2>Vue</h2>
             <p>O que temos que ter sempre em mente 
             é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
         </div>
