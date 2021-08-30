@@ -291,16 +291,16 @@ margin: 10px;
 }
 
 @media (max-width: 800px){
-    .preco{
+    .exp{
         padding-left: 10px;
         padding-right: 10px;
     }
     
-    .preco .preco-item:nth-child(3){
+    .exp .exp-item:nth-child(3){
         order: -2;
     }
 
-    .preco .preco-item:nth-child(2){
+    .exp .exp-item:nth-child(2){
         order: -1;
     }
 }
@@ -346,7 +346,7 @@ margin: 10px;
     background-color: #66d9eb;
 }
 
-.qualidade-item ul li{
+.qualidade-item p{
     font-size: 1.25em;
     line-height: 1.4;
     color: #7c7c7c;
