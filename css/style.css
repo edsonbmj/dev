@@ -25,13 +25,12 @@ img{
     box-sizing: border-box;
 }
 
-.superinfo-bg{
+.info-bg{
     background-color: #0F162C;
-    
     color: #fff;
 }
 
-.superinfo{
+.info{
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -40,11 +39,11 @@ img{
     padding-top: 10px;
 }
 
-.superinfo p, .superinfo a{
+.info p, .info a{
     margin: 0 10px 10px 10px;
 }
 
-.superinfo a{
+.info a{
     color: #fff;
 }
 /* Menu*/
