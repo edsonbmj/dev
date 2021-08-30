@@ -25,13 +25,13 @@ img{
     box-sizing: border-box;
 }
 
-.superinfo-bg{
+.info-bg{
     background-color: #0F162C;
     
     color: #fff;
 }
 
-.superinfo{
+.info{
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -40,11 +40,11 @@ img{
     padding-top: 10px;
 }
 
-.superinfo p, .superinfo a{
+.info p, .info a{
     margin: 0 10px 10px 10px;
 }
 
-.superinfo a{
+.info a{
     color: #fff;
 }
 
@@ -90,9 +90,9 @@ img{
     color: #0F162C;
 }
 
-/*Introdução*/
+/*Introduction*/
 
-.introducao{
+.intro{
     font-size: 3em;
     line-height: 1;
     max-width: 960px;
@@ -101,9 +101,9 @@ img{
 
 }
 
-/*Sobre*/
+/*About*/
 
-.sobre{
+.about{
     border-top: 2px solid #2c70ff;
     border-bottom: 2px solid #2c70ff;
     max-width: 960px;
@@ -113,28 +113,28 @@ img{
     flex-wrap: wrap;
 }
 
-.sobre-info1{
+.about-info1{
     flex: 2 1 300px;
     margin: 0 10px;
 }
 
-.sobre-info1 h1{
+.about-info1 h1{
     font-size: 3em;
     margin-bottom: .5em;
 }
 
-.sobre-info1 p{
+.about-info1 p{
     font-size: 1.25em;
     line-height: 1.2;
     margin-bottom: .5em;
     color: #7c7c7c;
 }
 
-.sobre-info1 span{
+.about-info1 span{
     font-weight: bold;  
 
 }
-.sobre-info2 p{
+.about-info2 p{
     padding: 10px;
     margin-top: 30px;
   
@@ -144,7 +144,7 @@ img{
     color: #7c7c7c;
 }
 
-.sobre img{
+.about img{
     border-radius: 10px;
     margin: 0 10px;
     max-width: 100%;
@@ -305,7 +305,7 @@ margin: 10px;
     }
 }
 
-/* Ferramentas */
+/* Tools */
 
 .tools{
     max-width: 960px;
