@@ -25,13 +25,12 @@ img{
     box-sizing: border-box;
 }
 
-.infor-bg{
+.info-bg{
     background-color: #0F162C;
-    
     color: #fff;
 }
 
-.infor{
+.info{
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -40,11 +39,11 @@ img{
     padding-top: 10px;
 }
 
-.infor p, .infor a{
+.info p, .info a{
     margin: 0 10px 10px 10px;
 }
 
-.infor a{
+.info a{
     color: #fff;
 }
 
@@ -103,7 +102,7 @@ img{
 
 /*About*/
 
-.tabout{
+.about{
     border-top: 2px solid #2c70ff;
     border-bottom: 2px solid #2c70ff;
     max-width: 960px;
@@ -113,28 +112,28 @@ img{
     flex-wrap: wrap;
 }
 
-.tabout-info1{
+.about-info1{
     flex: 2 1 300px;
     margin: 0 10px;
 }
 
-.tabout-info1 h1{
+.about-info1 h1{
     font-size: 3em;
     margin-bottom: .5em;
 }
 
-.tabout-info1 p{
+.about-info1 p{
     font-size: 1.25em;
     line-height: 1.2;
     margin-bottom: .5em;
     color: #7c7c7c;
 }
 
-.tabout-info1 span{
+.about-info1 span{
     font-weight: bold;  
 
 }
-.tabout-info2 p{
+.about-info2 p{
     padding: 10px;
     margin-top: 30px;
   
@@ -144,7 +143,7 @@ img{
     color: #7c7c7c;
 }
 
-.tabout img{
+.about img{
     border-radius: 10px;
     margin: 0 10px;
     max-width: 100%;
